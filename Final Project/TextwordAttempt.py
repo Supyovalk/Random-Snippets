@@ -33,14 +33,13 @@ def vectorizehebrewlist(lst,dict):
     for word in lst:
         if word in dict.keys():
             vector.append(dict[word])
+        elif isEnglish(word):
+            vector.append(0)
         else:
-            if isEnglish(word):
-                vector.append(0)
-            else:
-                expendflag=True
-                newindex=max(dict.values())+1
-                dict[word]=newindex
-                vector.append(newindex)
+            expendflag=True
+            newindex=max(dict.values())+1
+            dict[word]=newindex
+            vector.append(newindex)
     return (vector,expendflag)
                 
 #print(texttodict("Wordattempt.txt")["של"])

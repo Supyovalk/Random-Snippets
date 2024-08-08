@@ -1,5 +1,5 @@
 def linktostring(linktuple,lineseperate=" "):
-    if(linktuple[0]):
+    if linktuple[0]:
         return "[["+linktuple[2]+lineseperate+linktuple[1]+"]]"
     else:
         return linktuple[2]
@@ -25,9 +25,9 @@ def navDictTransformFandom(dict):
 def CreateNav():
     dict=Inputnavdict()
     mode=input("Dictoanary is initaied! Enter conversion mode [1-TropeTv,2-Fandom]")
-    if(mode=='1'):
+    if mode=='1':
         return navDictTransformTropeTv(dict)
-    if(mode=='2'):
+    if mode=='2':
         return navDictTransformFandom(dict)
     return "Contraction Code Invaild"
 def Inputnavdict():
@@ -35,10 +35,10 @@ def Inputnavdict():
     finaldict["title"]=input("Enter NavBox Header:")
     finaldict["sections"]=[]
     sectionheader=input("Input Section Header:")
-    while(not sectionheader==""):
+    while not sectionheader=="":
         linklst=[]
         link=input("Enter Link:")
-        while (not link==""):
+        while not link=="":
             linktitle=input("Enter Title (Optional):")
             isbracketed = not linktitle==""
             linklst.append((isbracketed,linktitle,link))

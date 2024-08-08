@@ -62,17 +62,17 @@ class fandominformation:
         pass
 
 def loadobject(filename):
-    with open(filename, 'rb') as file:
     # Deserialize and load the object from the file
+    with open(filename, 'rb') as file:
         loaded_object = pickle.load(file)
     return loaded_object
 def savefandoms(fandominfo,filename):
-    with open(filename, 'wb') as file:
     # Serialize and save the object to the file
+    with open(filename, 'wb') as file:
         pickle.dump(fandominfo, file)
     pass
 def savefusions(fusioninfo,filename):
-    with open(filename, 'wb') as file:
     # Serialize and save the object to the file
+    with open(filename, 'wb') as file:
         pickle.dump(fusioninfo, file)
     pass
