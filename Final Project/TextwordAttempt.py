@@ -12,14 +12,13 @@ def texttodict(filename,failsafe=True):
     file1.close()
     return worddict
 def save_dict_to_file(dic,name):
-    f = open('dict.txt','w',encoding='utf-8')
-    f.write(str(dic))
-    f.close()
+    with open(name,'w',encoding='utf-8') as f:
+        f.write(str(dic))
 
 def load_dict_from_file(name):
-    f = open('dict.txt','r',encoding='utf-8')
-    data=f.read()
-    f.close()
+    data=""
+    with open(name,'w',encoding='utf-8') as f:
+        data=f.read()
     return eval(data)
 def isEnglish(s):
     try:
@@ -32,7 +31,7 @@ def vectorizehebrewlist(lst,dict):
     vector=[]
     expendflag=False
     for word in lst:
-        if(word in dict.keys()):
+        if word in dict.keys():
             vector.append(dict[word])
         else:
             if isEnglish(word):
