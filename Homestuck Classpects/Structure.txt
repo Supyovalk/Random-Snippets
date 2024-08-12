@@ -1,0 +1,16 @@
+#Role = {RoleName,Type (Canon/Fanon Class,Canon/Fanon Aspect),List of Parent Roles}
+#Role Anaysis = {Role,AnaylsisText,List of (Anaysis Source,Anaysis Link),List of Character with Role}
+#Abilites = {Role}
+--Fandom--
+FandomName - Basic
+CountOfTotalCharacters - How many Characters of this fandom are in the databade
+CountOfClasspectedCharacter - How many Characters of this fandom have a unaimious canon Classpect (Number of Xs)
+#Character = [CharacterName,Fandom,DecidedCanonClasspect,Zodiac (12/Unknown Birth),Lunarsway]
+#Character Role Rating = [Character,Role,Rating[1-5,T for true canon Classpect],RatingExplinationText]
+#Character Role Suggestion = [User,Character,Role,Rating[1-5,T for One true canon Classpect],RatingExplinationText]
+#Planet={Role,PlanetPrefix1,PlanetPrefix2,Planet Explination Text}
+#Fraymotifs={Roles,FraymotifName,FraymotifLimits,FraymotifLimits}
+--Chracter Total Role Rating--
+Each CTRR has a List of Roles for Rows and a List of Roles for Columns
+Then for each Row Role,Column Row, and the Combination
+==Abilites==
