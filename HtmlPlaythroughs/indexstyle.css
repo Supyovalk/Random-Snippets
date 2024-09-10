@@ -1,0 +1,24 @@
+
+body{background-color: silver;font-family:Helvetica;}
+h1,h2 {text-align:center}
+table, th, td {
+    border: 1px solid black;
+  }
+th{
+    background-color: white;
+}
+td{
+    background-color: aqua;
+}
+div.container{text-align: center;}
+ul.ulcenter{display: inline-block;
+    text-align: left;}
+.duelborderparent{text-align: center;}
+.duelborderparent > * {border-style:dashed solid dashed solid;font-size: 20px;}
+.duelborderparent > *:hover {border-style:dashed solid dashed solid;border-color:aqua;color:aqua}
+.tableheaderparent > *{background-color: #ebebeb;}
+ul > li::marker {color: aqua;}
+@font-face {
+    font-family: "Kimberley";
+    src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");
+  }
