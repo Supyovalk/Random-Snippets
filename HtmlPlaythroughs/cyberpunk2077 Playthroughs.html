@@ -1,10 +1,17 @@
 <html>
-<head>  
+<head> 
+<script>
+    function onload(){
+        document.getElementsByClassName("Total Players")[0].textContent = "Total Players:"+document.querySelectorAll("a > h2").length;
+        document.getElementsByClassName("Total Playthroughs")[0].textContent = "Total Playthroughs:"+document.querySelectorAll("iframe").length;
+    }
+</script> 
 </head>
-<body background="bg.webp" style="background-size:100%">
+<body onload="onload()" background="bg.webp" style="background-size:100%">
     <div style="display:inline-block;text-align: center;width: 100%;">
     <h1>Cyberpunk 2077 Playthroughs</h1>
-    <p>Total Playthroughs:1</p>
+    <p class="Total Players">Loading Data...</p>
+    <p class="Total Playthroughs">Loading Data...</p>
     <a href="https://www.youtube.com/@VODMojave"><h2>Mojave</h2></a>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=n4rJhHh5K420I2nd&amp;list=PL3aeLSFNNfdJ70pGb9ZL_Y9ahcorunm6L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <a href="https://www.youtube.com/@mazominx"><h2>Mazominx</h2></a>
@@ -25,10 +32,10 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=4FYq7v8VubGxr0c_&amp;list=PLsNxWRUw6RC124SOczx71GH9oqF2BVETj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <h3>Phantom Liberty/No firearms</h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=9M0UO08QDczUHlJL&amp;list=PLsNxWRUw6RC2MwlhbJIIYdy1ZDOPsW9ir" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <a href=""><h2></h2></a>
-    <iframe src="" frameborder="0"></iframe>
-    <a href=""><h2></h2></a>
-    <iframe src="" frameborder="0"></iframe>
     </div>
 </body>
 </html>
+<!--
+<iframe src="" frameborder="0"></iframe>
+<a href=""><h2></h2></a>
+-->
