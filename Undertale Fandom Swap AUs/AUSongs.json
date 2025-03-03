@@ -1,0 +1,47 @@
+{
+    "Undertale":{
+        "ASGORE":{
+            "Link":"https://www.youtube.com/watch?v=hMa4hZQbrms&pp=ygUQdW5kZXJ0YWxlIGFzZ29yZQ%3D%3D",
+            "Characters":["Asgore"],
+            "Tags":[]
+        }
+    },
+    "DUSTTALE: Brotherly LOVE":{
+        "Guardian's Guilt":{
+            "Link":"https://soundcloud.com/dusttale-brotherly-love/guardians-guilt",
+            "Characters":["Papyrus"],
+            "Tags":["Alliteration"]
+        },
+        "Burning Memory":{
+            "Link":"https://soundcloud.com/dusttale-brotherly-love/14-burning-memory",
+            "Characters":["Sans","Toriel"],
+            "Tags":[]
+        }
+    },
+    "Storyshift: Facing Demons":{
+        "Insanity":{
+            "Link":"https://soundcloud.com/devilovania_igb/ins",
+            "Characters":["Chara"],
+            "Tags":[]
+        }
+    },
+    "UNDERTALE: Last Corridor":{
+      "ICICLE IGNITION":{
+            "Link":"https://soundcloud.com/utlc/icicle-ignition-ii",
+            "Characters":["Sans"],
+            "Tags":[]
+      }      
+    },
+    "Unclassified":{
+        "Battle Of The Only True Hope":{ 
+            "Link":"https://soundcloud.com/dwaco_the_gwreat/battle-of-the-only-true-hope",
+            "Characters":["Asriel","Undyne"],
+            "Tags":[],
+            "Reliants":[["Undertale","Hopes and Dreams"],["Undertale","Battle Against A True Hero"]]
+        },
+        "Casualty":{
+            "Link":"https://soundcloud.com/darkronaut/casualty-epic-sans-theme-undertale-internet-trend-remix",
+            "Characters":["Sans"]
+        }
+    }
+}

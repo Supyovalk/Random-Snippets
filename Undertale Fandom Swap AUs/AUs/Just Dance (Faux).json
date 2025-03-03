@@ -1,0 +1,70 @@
+{
+    "Fandom":"Just Dance",
+    "Name":"Danceverse's Underground",
+    "Character Swaps":
+        {
+            "Frisk"         :"Picto",
+            "Chara"         :"Icona Shard",
+            "Asriel"	    :"Jack Rose",
+            "Undyne"	    :"Brezziana",
+            "Alphys"	    :"Master Panda",
+            "Nasptablook"	:"Epsilon",
+            "Toriel"	    :"Cygnus",
+            "Gaster"	    :"Traveler",
+            "Sans"          :"Wanderlust",
+            "Papyrus"       :"Sara",
+            "Asgore"        :"Leda",
+            "Muffet"	    :"Anglia",
+            "Grillby"	    :"Luke Cypher",
+            "Flowey"	    :"Dark!Jack Rose",
+            "Mettaton"	    :"Mihaly"
+        },
+    "Plot Elements":{
+        "Level of Violence":"Replaced By SK/Skill, Stands for 'S-olace in KILL-ing'.",
+        "Premise":"After Jack Rose's Defeat of Nightswan "
+    },
+    "Gameplay Elements":{
+        "Enemy Turn":"The Enemy Creates a move sequence (Represented by some visual, mainly UDLR arrows) And player has to press it to counter it "
+    },
+    "Songs":{
+        "Undertale":{
+            "ASGORE":"Swansong",
+            "NGAHHH!!":	"Beat it!",
+            "Spear of Justice":	"Heart of Effort",
+            "Battle Against a True Hero":	"Confronating an Unwavering Spirit",
+            "Metal Crusher":	"Crystal Splitter",
+            "Death by Glamour":	"Cleansed by Flow",
+            "POWER OF NEO":	"RHTYHM OF MASTERO",
+            "Megalovania":	"Groovekiller",
+            "Once Upon a Time":	"A Dance as old as Time",
+            "CORE":	"MELOSIA",
+            "Another Medium":	"Concurrent Sun",
+            "Megalo Strikes Back":	"Groove Cracked Open",
+            "Heartache": "Temporal Oculus",
+            "Ghost Fight": "Divergent Bang"
+        },
+        "Storyshift":{
+            "HARDCORE":	"SHARP FOCUS",
+            "MegaloGlamour": "Flowkiller",
+            "Neurovaniac": "GlassConfractio [Glass Shattering]"
+        },
+        "Bad Time Trio":{
+            "Triple The Threat":"Shatter Some Stars"
+        },
+        "UNDERTALE: Last Corridor":{
+            "ICICLE IGNITION":"Stellar Satisfaction"
+        },
+        "Unclassified":{
+            "Casualty":"Trajectory"
+        }
+        
+    },
+    "AU Renames":{
+        "UT:Icebound"   :"DU:Frost Haven",
+        "Storyshift"    :"A Charography's Shift",
+        "Underfell"     :"Danceverse's Devils",
+        "Storyspin"     :"A Verse Spin",
+        "Dusttale: Brotherly Love":"Danceverse's Execution: Humanity Wandering Away",
+         "Bad Time Trio" : "Glass Floor Trio"
+    }
+}
